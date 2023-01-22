@@ -5,11 +5,11 @@ import telebot
 ##TOKEN DETAILS
 TOKEN = "ONS"
 
-BOT_TOKEN = "5931268983:AAFfqM6O4q0heZB6AP3fj5tNcMUcWCshA1c"
-OWNER_ID = 1726966074 #write owner's user id here.. get it from @MissRose_Bot by /id
-CHANNELS = ["@ONSBAseE"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
-RATE_CHANNEL = "@onsbasee" #you can add as many channels here and also add the '@' sign before channel username
-MENFES_CHANNEL = "@menfesonsbase"
+BOT_TOKEN = "5600178210:AAH2DMRSuTke0VJL__KajjLsgvTsd--XGoM"
+OWNER_ID = 907544310 #write owner's user id here.. get it from @MissRose_Bot by /id
+CHANNELS = ["@DuniaVirtualBase"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
+RATE_CHANNEL = "DuniaVirtualBase" #you can add as many channels here and also add the '@' sign before channel username
+MENFES_CHANNEL = "@DuniaVirtualMenfess"
 Daily_bonus = 50 #Put daily bonus amount here!
 Mini_Withdraw = 1000  #remove 0 and add the minimum withdraw u want to set
 Per_Refer = 50 #add per refer bonus here
@@ -71,7 +71,7 @@ def start(message):
         markup.add(telebot.types.InlineKeyboardButton(
            text='🤼‍♂️ Joined', callback_data='check'))
         msg_start = "*🍔 To Use This Bot You Need To Join This Channel - "
-        for i in CHANNELS, MENFES_CHANNEL, "@ratemyonspartner":
+        for i in CHANNELS, MENFES_CHANNEL, "@DuniaVirtualMenfess":
             msg_start += f"\n➡️ {i}\n"
         msg_start += "*"
         bot.send_message(user, msg_start,
