@@ -3,13 +3,13 @@ import json
 import telebot
 
 ##TOKEN DETAILS
-TOKEN = "5600178210:AAH2DMRSuTke0VJL__KajjLsgvTsd--XGoM"
+TOKEN = "ons:"
 
-BOT_TOKEN = "5600178210:AAH2DMRSuTke0VJL__KajjLsgvTsd--XGoM"
-OWNER_ID = 907544310 #write owner's user id here.. get it from @MissRose_Bot by /id
-CHANNELS = ["@DuniaVirtualBase"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
-RATE_CHANNEL = "DuniaVirtualBase" #you can add as many channels here and also add the '@' sign before channel username
-MENFES_CHANNEL = "@DuniaVirtualMenfess"
+BOT_TOKEN = "6087937854:AAE0heotf-6NJBSMI_-7zkfMW11WsdSe1WM"
+OWNER_ID = 5957349333 #write owner's user id here.. get it from @MissRose_Bot by /id
+CHANNELS = ["@tesyuei"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
+RATE_CHANNEL = "tesyuei" #you can add as many channels here and also add the '@' sign before channel username
+MENFES_CHANNEL = "@cbaseg"
 Daily_bonus = 50 #Put daily bonus amount here!
 Mini_Withdraw = 1000  #remove 0 and add the minimum withdraw u want to set
 Per_Refer = 50 #add per refer bonus here
