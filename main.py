@@ -3,7 +3,7 @@ import json
 import telebot
 
 ##TOKEN DETAILS
-TOKEN = "ONS"
+TOKEN = "5600178210:AAH2DMRSuTke0VJL__KajjLsgvTsd--XGoM"
 
 BOT_TOKEN = "5600178210:AAH2DMRSuTke0VJL__KajjLsgvTsd--XGoM"
 OWNER_ID = 907544310 #write owner's user id here.. get it from @MissRose_Bot by /id
